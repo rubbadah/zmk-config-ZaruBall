@@ -170,11 +170,11 @@
             display-name = "Base";
             sensor-bindings = <&scroll_down_up>;
             bindings = <
-&kp ESC    &kp N1      &kp N2  &kp N3    &kp N4        &kp N5                                &kp KP_N7     &kp KP_N8  &kp KP_N9   &kp KP_DIVIDE                        &kp NUMBER_6  &kp N7  &kp N8     &kp N9   &kp N0          &kp MINUS
-&kp TAB    &kp Q       &kp W   &kp E     &kp R         &kp T                                 &kp KP_N4     &kp KP_N5  &kp KP_N6   &kp KP_MULTIPLY                      &kp Y         &kp U   &kp I      &kp O    &lt 2 P         &kp SLASH
-&mm_lang   &kp A       &kp S   &kp D     &kp F         &kp G            &kp Y                &kp KP_N1     &kp KP_N2  &kp KP_N3   &kp KP_MINUS       &kp SINGLE_QUOTE  &kp H         &kp J   &kp K      &kp L    &mkp LCLK       &mkp RCLK
-&kp LSHFT  &kp Z       &kp X   &kp C     &kp V         &kp B            &ht_to_kp 5 GRAVE    &kp KP_ENTER  &kp KP_N0  &kp KP_DOT  &kp KP_PLUS        &kp EQUAL         &kp N         &kp M   &kp COMMA  &kp DOT  &kp LEFT_ARROW  &kp RIGHT_ARROW
-&kp LCTRL  &kp C_MUTE          &kp LWIN  &kp LEFT_ALT  &mt RCTRL SPACE  &lt 1 SPACE                                                                  &lt 1 RET         &mm_bs_del                                                &hld_tl 1 0
+&kp ESC    &kp N1      &kp N2  &kp N3    &kp N4        &kp N5                                &kp KP_N7     &kp KP_N8  &kp KP_N9   &kp KP_DIVIDE                 &kp NUMBER_6  &kp N7  &kp N8     &kp N9   &kp N0          &kp SINGLE_QUOTE
+&kp TAB    &kp Q       &kp W   &kp E     &kp R         &kp T                                 &kp KP_N4     &kp KP_N5  &kp KP_N6   &kp KP_MULTIPLY               &kp Y         &kp U   &kp I      &kp O    &lt 2 P         &kp EQUAL
+&mm_lang   &kp A       &kp S   &kp D     &kp F         &kp G            &kp Y                &kp KP_N1     &kp KP_N2  &kp KP_N3   &kp KP_MINUS       &kp MINUS  &kp H         &kp J   &kp K      &kp L    &mkp LCLK       &mkp RCLK
+&kp LSHFT  &kp Z       &kp X   &kp C     &kp V         &kp B            &ht_to_kp 5 GRAVE    &kp KP_ENTER  &kp KP_N0  &kp KP_DOT  &kp KP_PLUS        &kp SLASH  &kp N         &kp M   &kp COMMA  &kp DOT  &kp LEFT_ARROW  &kp RIGHT_ARROW
+&kp LCTRL  &kp C_MUTE          &kp LWIN  &kp LEFT_ALT  &mt RCTRL SPACE  &lt 1 SPACE                                                                  &lt 1 RET  &mm_bs_del                                                &hld_tl 1 0
             >;
         };
 
