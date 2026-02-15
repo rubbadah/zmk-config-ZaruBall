@@ -132,6 +132,12 @@
 };
 
 &sl { release-after-ms = <250>; }; // time needed for double click (for mkp_exit_AML)
+
+&lt {
+    tapping-term-ms = <400>;
+    flavor = "balanced";
+};
+
 / {
     macros {
         // When in AML, move to default layer when key (except mouse button) pressed
